@@ -13,15 +13,22 @@
 Please run `python lpips_2imgs.py`
 
 ### Test Script
-To reproduce the results in the paper run the following
 
-*AlexNet Vanilla*
+Please download the original BAPPS dataset using this [script (here)](https://github.com/richzhang/PerceptualSimilarity/blob/master/scripts/download_dataset.sh). Then, update path to the dataset in [global_config.json](https://github.com/abhijay9/ShiftTolerant-LPIPS/tree/main/util/config).
+
+To reproduce the results in the paper run the following:
+
+*AlexNet Vanilla*  
 `nohup bash n_pixel_shift_study/test_scripts/test.sh alex vanilla 2 64 50 > logs/eval_alex_vanilla.out &`
 
-*AlexNet Shift-tolerant*
+*AlexNet Shift-tolerant*  
 `nohup bash n_pixel_shift_study/test_scripts/test.sh alex shift_tolerant 1 64 50 > logs/eval_alex_shift_tolerant.out &`
 
 **Note:** To train and test our models in this paper, we used Image.BICUBIC. The results are similar when other resizing methods are used. Please feel free to switch back to bilinear as used in the original LPIPS work (here).
+
+### Other Evaluations
+
+For other evaluations refer to [./n_pixel_shift_study/](https://github.com/abhijay9/ShiftTolerant-LPIPS/tree/main/n_pixel_shift_study).
 
 ## Citation
 
