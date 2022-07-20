@@ -1,3 +1,4 @@
 {
-    "dataroot":"../PerceptualSimilarity/dataset/"
+    "2afc_rootdir":"../PerceptualSimilarity/dataset",
+    "kadid_rootdir":"../Kadid/dataset"
 }
