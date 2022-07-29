@@ -44,4 +44,4 @@ If you find this repository useful for your research, please use the following.
 ```
 
 ## Acknowledgements
-This repository borrows from [LPIPS](https://github.com/richzhang/PerceptualSimilarity), [Anti-aliasedCNNs](https://github.com/adobe/antialiased-cnns), and [CNNsWithoutBorders](https://github.com/oskyhn/CNNs-Without-Borders) repositories. We thank the authors of these repositories for their incredible work and inspiration.
+This repository borrows from [LPIPS](https://github.com/richzhang/PerceptualSimilarity), [Anti-aliasedCNNs](https://github.com/adobe/antialiased-cnns), and [CNNsWithoutBorders](https://github.com/oskyhn/CNNs-Without-Borders). We thank the authors of these repositories for their incredible work and inspiration.
